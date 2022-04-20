@@ -14,6 +14,9 @@
 		679F34CD280EF89200BFB249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 679F34CC280EF89200BFB249 /* Assets.xcassets */; };
 		679F34D0280EF89200BFB249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 679F34CE280EF89200BFB249 /* LaunchScreen.storyboard */; };
 		679F34D3280EF89200BFB249 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 679F34D2280EF89200BFB249 /* main.m */; };
+		679F34DC280EF8D100BFB249 /* XGRunLoopSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 679F34DB280EF8D100BFB249 /* XGRunLoopSource.m */; };
+		679F34E0280EF8F700BFB249 /* XGRunLoopContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 679F34DF280EF8F700BFB249 /* XGRunLoopContext.m */; };
+		679F34E4280EFF7C00BFB249 /* XGRunLoopInpuSourceThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 679F34E3280EFF7C00BFB249 /* XGRunLoopInpuSourceThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		679F34CF280EF89200BFB249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		679F34D1280EF89200BFB249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		679F34D2280EF89200BFB249 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		679F34DA280EF8D100BFB249 /* XGRunLoopSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XGRunLoopSource.h; sourceTree = "<group>"; };
+		679F34DB280EF8D100BFB249 /* XGRunLoopSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XGRunLoopSource.m; sourceTree = "<group>"; };
+		679F34DE280EF8F700BFB249 /* XGRunLoopContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XGRunLoopContext.h; sourceTree = "<group>"; };
+		679F34DF280EF8F700BFB249 /* XGRunLoopContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XGRunLoopContext.m; sourceTree = "<group>"; };
+		679F34E2280EFF7C00BFB249 /* XGRunLoopInpuSourceThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XGRunLoopInpuSourceThread.h; sourceTree = "<group>"; };
+		679F34E3280EFF7C00BFB249 /* XGRunLoopInpuSourceThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XGRunLoopInpuSourceThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 				679F34C4280EF88800BFB249 /* SceneDelegate.m */,
 				679F34C6280EF88800BFB249 /* ViewController.h */,
 				679F34C7280EF88800BFB249 /* ViewController.m */,
+				679F34DA280EF8D100BFB249 /* XGRunLoopSource.h */,
+				679F34DB280EF8D100BFB249 /* XGRunLoopSource.m */,
+				679F34DE280EF8F700BFB249 /* XGRunLoopContext.h */,
+				679F34DF280EF8F700BFB249 /* XGRunLoopContext.m */,
+				679F34E2280EFF7C00BFB249 /* XGRunLoopInpuSourceThread.h */,
+				679F34E3280EFF7C00BFB249 /* XGRunLoopInpuSourceThread.m */,
 				679F34C9280EF88800BFB249 /* Main.storyboard */,
 				679F34CC280EF89200BFB249 /* Assets.xcassets */,
 				679F34CE280EF89200BFB249 /* LaunchScreen.storyboard */,
@@ -145,8 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679F34E0280EF8F700BFB249 /* XGRunLoopContext.m in Sources */,
 				679F34C8280EF88800BFB249 /* ViewController.m in Sources */,
 				679F34C2280EF88800BFB249 /* AppDelegate.m in Sources */,
+				679F34DC280EF8D100BFB249 /* XGRunLoopSource.m in Sources */,
+				679F34E4280EFF7C00BFB249 /* XGRunLoopInpuSourceThread.m in Sources */,
 				679F34D3280EF89200BFB249 /* main.m in Sources */,
 				679F34C5280EF88800BFB249 /* SceneDelegate.m in Sources */,
 			);

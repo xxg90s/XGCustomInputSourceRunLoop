@@ -6,9 +6,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XGRunLoopContext.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+- (void)fireInputSource;
+
+@end
+
+@interface AppDelegate (RunLoop)
+
+- (void)registerSource:(XGRunLoopContext *)sourceContext;
+
+- (void)removeSource:(XGRunLoopContext *)sourceContext;
+
+- (void)simulateInputSourceEvent;
 
 @end
 
